@@ -1,0 +1,12 @@
+
+.small{
+    color:blue;
+}
+.md{
+    height: 300px;
+    width: 300px;
+    padding: 2em;
+    border: 2px solid red;
+    margin: 4px;
+    box-sizing: content-box;
+}

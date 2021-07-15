@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+.container{
+    object-fit: contain;
+}
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-size: 22px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+li {
+  float: left;
+  position: sticky; 
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: rgb(78, 231, 124);
+  position: sticky; top: 10px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: white;
+}
+.center{
+    padding-left: 25%;
+    position: sticky; top: 0%;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.center-heading{
+    text-align: center;
+    padding-top: 20px;
+    
+    padding-bottom: 2em;
+}
+img{
+    object-fit: cover;
+}
+.flex-container {
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-container > div {
+  background-color: white;
+  font-size: 30px;
+  height: 33%;
+  width: 33%;
+}
+.container-box{
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 1em;
+}
+.center-box{
+    justify-content: center;
+    margin: auto;
+}
+.wrap{
+    margin: auto;
+    text-align: center;
+}
