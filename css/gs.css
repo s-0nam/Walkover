@@ -15,12 +15,10 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  position: relative;
 }
 
 li {
   float: left;
-  position: sticky; 
 }
 
 li a {
@@ -30,7 +28,7 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   background-color: rgb(78, 231, 124);
-  position: sticky; top: 10px;
+  
 }
 
 /* Change the link color to #111 (black) on hover */
